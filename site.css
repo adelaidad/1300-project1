@@ -1,0 +1,188 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 2em;
+}
+header{
+    font-size: 15pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    color: #ec1616;
+    font-size: 32pt;
+    text-decoration: underline overline #ffffff;
+}
+h2{
+    color: #ffffff;
+    font-size: 28pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ec1616;
+    font-size: 24pt;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12pt;
+    border: 3px solid #ffd562;
+    border-radius: 10px;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1px;
+
+}
+img{
+    border: 6px solid rgb(255, 222, 103);
+    border-style:ridge;
+    padding: 10px;
+    margin: 3px;
+}
+.indeximage{
+    border: 6px solid rgb(255, 255, 255);
+    border-style:double;
+    display: block;
+    margin: auto;
+    max-width:100%;
+    height:auto;
+}
+.textimage{
+    display:flex;
+    flex-direction: row;
+
+}
+.leftmargin{
+    margin-left: 40px;
+}
+
+figcaption{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2px;
+    color:#ffffff;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: rgb(223, 219, 219);
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.rowdotted{
+    display:flex;
+    flex-direction: row;
+    border: dotted#ffd562;
+    border-width: 10px;
+    margin-bottom: 50px;
+}
+.columngrow{
+    display:flex;
+    flex-direction: column;
+    padding: 1em;
+    margin-left: 0em;
+    flex-grow: 1;
+    margin-right: 2em;
+}
+.nobackground{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.headernobackground{
+    border:none;
+    background-color: black;
+    color: #ffffff;
+    padding-top: 0em;
+    font-size: 24px;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: #ec1616;
+    margin: 5px;
+    padding: 6px;
+}
+nav ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav li {
+    list-style:none;
+}
+nav li a{
+    padding: 10px;
+    font-size: 12pt;
+    font-weight: bold;
+    color:rgb(250, 244, 244)
+}
+
+nav li a:hover{
+    color:#ec1616;
+    background-color: #ffffff;
+}
+dt {
+    font-size: 20px;
+    text-decoration:underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+dl dd {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:12px;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    background-color: #ec1616;
+    border-left-style: solid;
+    border: solid rgb(255, 255, 255);
+    border-left: none;
+}
+a{
+    color:white
+}
+.column{
+    font-size: 12pt;
+    color:rgb(223, 219, 219);
+    display:flex;
+    flex-direction: column;
+    width:33%;
+    padding: 15px;
+    margin: 0em;
+    border-left: solid rgb(255, 255, 255);
+}
+.pred{
+    font-size: 12pt;
+    color:rgb(255, 255, 255);
+    background-color: #ec1616;
+    margin: 0em;
+}
+h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15pt;
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+    text-decoration: underline;
+    margin: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}

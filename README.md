@@ -1,2 +1,3 @@
-# 1300-project1
-Project 1 for INFO 1300 -- Movie Reciew Personal Website
+# Project 1
+
+**Submission Instructions:** Stage, commit, and push your changed files. Then complete the submission form.
